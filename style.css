@@ -1,0 +1,157 @@
+body {
+    margin: 0;
+    background-image: url(mainbackground.png);
+    font-family: "Noto Serif", serif;
+
+}
+
+#container {
+    margin-left:auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    width: 85%;
+   
+}
+
+#menue {
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+    margin: 5px;
+}
+#avatar {
+    width: 100%;
+    
+    
+}
+#avatar img{
+    width: 100%;
+    height: auto;
+    border-style: none;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    
+}
+.menuetitle {
+    background-color: #c4bfc0;
+    height: 60px;
+    font-size: 2rem;
+    font-family: "Noto Serif", serif;
+    color:#696261;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-style: none;
+    border-style: solid;
+    border-color: #b1acad;
+    border-width: 2px;
+
+
+}
+.menuebutton {
+    background-color: #e3d6d7;
+    margin: 5px;
+    padding: 5px;
+    font-size: 1rem;
+    font-family: "Noto Serif", serif;
+    color:#696261;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: #b1acad;
+    border-width: 2px;
+}
+
+#content {
+    display: flex;
+    margin: 5px;
+    flex-direction: column;
+    width: 60%;
+   
+}
+
+.ContentTitle {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    font-size: 2rem;
+    font-family: "Noto Serif", serif;
+    color: #696261;
+    padding: 5px;
+    background-color: #c4bfc0;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-style: solid;
+    border-color: #b1acad;
+    border-width: 2px;
+}
+
+.ContentContent {
+    width: 100%;
+    height: 600px;
+    font-size: 1rem;
+    font-family: "Noto Serif", serif;
+    color: #686868;
+    box-sizing: border-box;
+    padding: 5px;
+    background-color: #c4bfc060;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-style: solid;
+    border-color: #b1acad;
+    border-width: 2px;
+}
+
+
+
+
+
+
+
+#right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 20%;
+    margin: 5px;
+}
+.rightwindows {
+    width: 100%;
+    margin-bottom: 10px;
+    font-size: 1rem;
+    font-family: "Noto Serif", serif;
+    color:#263632;
+  
+
+
+}
+.RightWindowsTitle {
+    width: 100%;
+    padding: 5px;
+    font-size: 1rem;
+    font-family: "Noto Serif", serif;
+    color: #696261;
+    display: flex;
+    justify-content: center;
+    background-color: #c4bfc0;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-style: solid;
+    border-color: #b1acad;
+    border-width: 2px;
+
+}
+
+.RightWindowsContent {
+    width: 100%;
+    height: 300px;
+    padding: 5px;
+    color: #686868;
+    background-color: #c4bfc060;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-style: solid;
+    border-color: #b1acad;
+    border-width: 2px;
+
+}
