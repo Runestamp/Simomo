@@ -1,0 +1,169 @@
+   
+body {
+  background-image: url('HG.png');
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  margin-left:-0px;
+  margin-right:-0px;
+  margin-top:-0px;
+  margin-bottom:-0px;
+
+ }
+ h3 {
+  display: inline;
+ }
+
+ .disclaimer {
+  background-color:rgba(24, 24, 24, 0.836);
+  color: rgb(184, 144, 36);
+  display: flex;
+  justify-content: center;
+ }
+
+
+
+
+
+.divbuttons {
+  margin-left:auto;
+  margin-right:auto;
+  margin-top:-4px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background:rgba(24, 24, 24);
+  border-width: 2px;
+  border-color:rgb(184, 144, 36);
+  border-top-style: solid;
+  border-bottom-style: solid;
+  border-left-style: none;
+  border-right-style: none;
+  border-width: 2px;
+
+}
+
+.maincontent {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding:;
+}
+
+.aboutme {
+  width: 50%;
+  text-align: left;
+  color: rgb(184, 144, 36);
+  padding: 5px;
+
+  
+}
+
+.inhalt {
+  margin: auto;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  
+}
+
+.panelzwischenraum {
+  width:1%;
+  
+}
+
+.panel {
+  width: 24%;
+  background-color:blue;
+  color:rgb(184, 144, 36);
+  background-color:rgba(24, 24, 24, 0.836);
+  padding: 10px;
+  font-size: 20px;
+  border-style:solid;
+  border-width:3px;
+  border-color:rgba(24, 24, 24);
+  border-radius: 7px;
+}
+
+.panelnews {
+  width: 24%;
+  height: auto;
+  background-color:blue;
+  color:rgb(184, 144, 36);
+  background-color:rgba(24, 24, 24, 0.836);
+  padding: 10px;
+  font-size: 20px;
+  border-style:solid;
+  border-width:3px;
+  border-color:rgba(24, 24, 24);
+  border-radius: 7px;
+}
+.video {
+
+  margin:;
+  width: 100%;
+  height: 50%;
+
+
+}
+
+.text {
+  width:50%;
+  display:flex;
+  padding: 20px;
+  background:rgba(24, 24, 24, 0.836);
+  border-style:solid;
+  border-width:3px;
+  border-color:rgba(24, 24, 24);
+  color: rgb(184, 144, 36);
+  font-size: 25px;
+  
+  
+}
+
+
+
+.button {
+    /*border: 2px solid;
+    border-color: rgb(184, 144, 36);
+    color: rgb(184, 144, 36);*/
+    border-style: none;
+    background-color:rgb(12, 16, 14);
+    margin-left: 1px;
+    margin-right: 1px;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+    cursor: pointer;
+    border-radius:
+  }
+  .button:hover {
+   
+    background-color: rgb(184, 144, 36);
+
+  }
+
+  a:link {
+    color: rgb(184, 144, 36);
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: rgb(184, 144, 36);
+    text-decoration: none;
+  }
+
+  a:hover {
+    color:rgb(24, 24, 24);
+    text-decoration: none;
+  }
+
+  a:active {
+    color: rgb(207, 183, 114);
+    text-decoration: underline;
+  }
+ 
+  
